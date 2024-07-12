@@ -1,0 +1,38 @@
+{
+    "name": "beautylix/flarum-bbcode-custom",
+    "description": "Custom flarum bbcode.",
+    "type": "flarum-extension",
+    "keywords": ["discussion", "template"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tiby Wang",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/beautylix/flarum-bbcode-custom/issues",
+        "source": "https://github.com/beautylix/flarum-bbcode-custom",
+        "forum": "https://discuss.flarum.org"
+    },
+
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "beautylix\\flarum-bbcode-custom\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "BBcode Custom",
+            "category": "feature",
+            "icon": {
+                "name": "fab fa-dribbble",
+                "backgroundColor": "#a0e5b5",
+                "color": "#000"
+            }
+        }
+    }
+}
